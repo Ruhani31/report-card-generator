@@ -53,7 +53,7 @@ const App = () => {
   const handleSubmit = async () => {
     try {
       const response = await axios.post(
-        "http://localhost:5000/api/report-cards",
+        "https://report-card-generator-wvnj.onrender.com/api/report-cards",
         {
           studentName,
           grades,

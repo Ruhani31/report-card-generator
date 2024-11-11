@@ -1,0 +1,36 @@
+.App {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.grades-container,
+.subjects-container,
+.adjectives-container,
+.paragraph-container {
+  margin-bottom: 20px;
+}
+
+.grade, .subject {
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin-right: 10px;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.subject {
+  width: 150px;
+  min-height: 60px;
+}
+
+.grade {
+  width: 50px;
+  text-align: center;
+}
+
+label {
+  margin-right: 10px;
+}
+
